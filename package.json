@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "This is App from Udemy ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js",
+    "stop": "taskkill -f -im node.exe"
+  },
+  "author": "Fawzy",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.1.1",
+    "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
