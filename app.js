@@ -1,10 +1,10 @@
-// @Include FileSystem
+// Include FileSystem
 const fileSystem = require('fs')
 
-// @Include yargs
+// Include yargs
 const yargs = require('yargs')
 
-// @Include chalk
+// Include chalk
 const chalk = require('chalk')
 
 // Include notes
